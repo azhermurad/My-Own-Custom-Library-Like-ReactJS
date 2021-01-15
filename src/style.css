@@ -1,0 +1,539 @@
+body{
+  
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+   
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.net-bg{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center center;
+    background-size: 100% 100%;
+    
+    /* background-image: url("../build/245a27c4567b6f0660166c1c3c647573.jpg"); */
+    /* background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9a818ce7-5b19-4a0a-8bec-e4a233c8661b/0894da9e-bcfa-4462-a8a1-c4c625005c13/PK-en-20210104-popsignuptwoweeks-perspective_alpha_website_small.jpg); */
+}
+/* .net-bg img{
+    width: 100%;
+    height: 100%;
+} */
+
+.container{
+    width: calc(100%-90px);
+    margin:  0px 45px;
+}
+
+.header-container{
+    display: flex;
+    padding-top: 15px;
+    justify-items: center;
+
+    
+}
+.header-items1,.header-items2{
+    flex-basis: 50%;
+}
+
+
+.header-items2{
+   
+    text-align: right;
+    
+
+ 
+}
+
+.signup-btn{
+    border: none;
+    padding: 10px;
+    background-color: #e50914;
+    color: white;
+    line-height: normal;
+    padding: 9px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    vertical-align: center;
+    border-radius: 10%;
+    margin: 19px 0px;
+   
+}
+.signup-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo-img{
+    height: 72px;
+    width: 160px;
+vertical-align: center;
+}
+
+.main-body{ text-align: center;
+    padding: 30px 0px;
+ 
+   
+}
+.main-body h1{
+    font-size: 3.125rem;
+    margin: 0px;
+    
+}
+.main-body h2{
+    font-size: 28px;
+}
+.card-body{
+    color: white;
+    max-width: 640px;
+    margin: 0 auto;
+ 
+    padding: 70px;
+
+}
+
+.btn-get{
+ padding: 22px;
+ background-color: red;
+ border: none;
+ color: white;
+ letter-spacing: 1px;
+ font-weight: bolder;
+
+ 
+}
+
+
+hr{
+    margin: 0px;
+    height: 10px;
+    background-color:#222222;
+    border: none;
+}
+              /*    section two  */
+
+.Enjoy-section{
+    background-color: #000000;
+}
+
+.Enjoy-main{
+    display: flex;
+    color: white;
+}
+.Enjoy-main div{
+    width: 50%;
+   
+}
+
+.itemone{
+    padding: 20px;
+}
+.itemone h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+}
+
+.itemone h2{
+
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.itemtwo img{
+    width: 100%;
+    
+
+    height: 350px;
+}
+
+
+@media(max-width:700px){
+
+    .Enjoy-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .Enjoy-main div{
+        width: 100%;
+       
+    }
+
+}
+
+
+
+
+                      /*   sectionfive (most frequently asked questions) */
+
+
+.asked__question{
+    background-color: #000000;
+    padding: 70px 45px;
+   
+}
+
+.asked__question h1{
+    font-size: 3.125rem;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* ================================ footer section=================================== */
+
+
+.footer-section{
+    background-color: #000000;
+    padding:70px ;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: #757575;
+    font-family: sans-serif;
+    
+}
+
+.flex-container div{
+  margin-bottom: 10px;
+}
+
+
+.main{
+    margin:0px 45px ;
+}
+.main p{
+    font-size: 17px;
+}
+
+
+.footer-section p{
+    margin: 0px;
+}
+
+@media (min-width:900px){
+    .flex-container{
+        /* background-color: #e50914; */
+        display: flex;
+      
+    }
+
+    .flex-container div{
+        flex: 1;
+    }
+}
+
+.list-itme span{
+ cursor: pointer;
+}
+
+
+
+
+
+.container-wrapper{
+
+     font-family: sans-serif;
+    height: 50%;
+    }
+ .brand{
+     width: 220px;
+ } 
+ .wrapper-form{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 40%;
+    margin: 0 auto;
+ }
+ .form-container{
+    margin: 10px 10px;
+    padding: 10px 0px
+ }
+ .heading-form{
+     color: #ffffff;
+     margin-left: 73px;
+     font-size: 32px;
+ }
+ .field-input{
+    /* padding: 15px 100px 15px 20px; */
+    height: 50px;
+    padding: 0 103px 0 20px;
+    border-radius: 3px;
+    display: block;
+    margin: 12px auto;
+    border: none;
+    background-color: #333333;
+    
+}
+.field-input::placeholder{
+    color: #ccc;
+    font-size: 15px;
+}
+.btn-form{
+    padding: 0 126px;
+    border-radius: 3px;
+    height: 50px;
+    display: block;
+    margin: 12px auto;
+    text-align: center;
+    background: #e50914;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+label{
+    color: #757575;
+}
+
+.checkbox{
+    margin-left: 89px;
+    color: #757575;
+}
+.label-need{
+    margin-left: 100px;
+    color: #757575;
+}
+.img-fb{
+    height: 29px;
+    margin-left: 84px;
+    margin-top: 20px;
+    padding: 5px;
+}
+.label-img{
+    vertical-align: super;
+    color: #ffffff;
+    color: #757575;
+}   
+.signNow{
+    color: #757575;
+    margin-left: 91px;
+    margin-top: 5px;
+}
+.white-color{
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.white-color:hover{
+    text-decoration: underline;
+}
+.last-p{
+    color: #ffffff;
+    margin: 30px 0 0 92px;
+    font-size: 15px;
+    padding-bottom: 50px;
+    color: #757575;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+    color: #757575;
+}
+.container-flex{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/* .child a{
+    text-decoration: none;
+    color: #757575;
+}
+.aM{
+    margin-top: 25px;
+    
+} */
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: #757575; 
+}
+
+
+
+
+
+   
+   
+   .Home{
+       height: 100vh;
+       margin: 0px;
+       padding: 0px;
+       background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://occ-0-58-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABc4lAY__cKWysr6lGNdKhKbtEuvzcs4lRilz9ZieNkBL7q7vHEoTzZDV7oZSn4nnNZsL97xqxdcvCdKW_CXBToWhEyvB.webp?r=aa1);
+       background-size: 100%;
+       background-repeat: no-repeat;
+       overflow: hidden;
+       resize: both;
+       position: relative;
+       min-width: 150px;
+       min-height: 60px;
+   }
+   .homeDiv{
+       margin-top: 115px;
+       margin-left: 71px;
+   }
+   .homeDiv button{
+       width: 9%;
+       height: 6vh;
+       resize: both;
+       position: relative;
+       min-width: 150px;
+       min-height: 60px;
+   }
+   .homeDiv button{
+       width: 12%;
+       height: 6vh;
+       opacity: 0.8;
+       margin-right: 10px;
+       background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+       resize: both;
+       position: relative;
+       min-width: 150px;
+       min-height: 60px;
+   }
+   .homeDiv p{
+       color: thistle;
+       width: 40%;
+       font-size: 21px;
+       font-family: monospace;
+       resize: both;
+       position: relative;
+       min-width: 150px;
+       min-height: 60px;
+   }
+   
+   
+   
+   
+   /*    section two  */
+   
+   
+   
+   .images-flex{
+       display: grid;
+       grid-template-columns: repeat(6, 1fr);
+       grid-gap: 25px 10px;
+       width: 95%;
+       margin: auto;
+   }
+   
+   .images-flex div {
+       /* border: 1px solid blue; */
+       min-height: 430px;
+       transition: 2s transform;
+   }
+   
+   
+   .images-flex div img{
+       width: 100%;
+       height: 100%;
+   }
+   
+   
+   .images-flex div:hover{
+       transform: scale(1.1,1.3);
+   }
+   
+   .box-grid{
+       display: grid;
+       grid-template-columns: repeat(6,1fr);
+       grid-template-rows: 200px 200px 200px;
+       grid-gap: 30px 10px;
+   }
+   
+   .box-grid div{ 
+       border-radius: 8px;
+       transition: 1s transform;
+   }
+   .box-grid div img{
+       width: 100%;
+       height: 100%;
+   }
+   
+   .box-grid div:hover{
+       transform: scale(1.1,1.3);
+   }
+   
+   .movies-list h2{
+       color: white;
+       font-size: 2.4rem;
+        text-transform: capitalize;
+   }
+   body {
+    margin: 0px;
+    padding: 0px;
+}
+.NavDiv img {
+    width: 8.5%;
+    padding-left: 12px;
+    margin-left: 51px;
+    cursor: pointer;
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
+
+.header .NavDiv {
+    display: flex;
+    background-color: #110f0f;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    list-style-type: none;
+    margin-right: 50px;
+    margin: auto;
+    margin-top: 35px;
+}
+.header ul li {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.itemone {
+    flex: 70%;
+    font-family: Helvetica, sans-serif;
+    }
+.itetwo li i {
+    font-size: 100px;
+}
+.Tvshows{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://occ-0-58-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZ182epxvsQfhZuvfQzoiBI5Vbq-disDXbARuLFBxxq1_XpPh9iuEnsZVrzYBYdjL-Z6y2ctD45hg0hbecX5ralC3-Hd.webp?r=84c);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
+
+.Movies{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://occ-0-58-64.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXd3kq6GlWnPpaP8jYQNp0SasaKWZ-y40KvQz4v9gBqgnA3xyXwLo5gUwQ35_ZT1vQUTIVSo_gjpxASXDjJRQ3Z2qJ9u.webp?r=e22);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    resize: both;
+    position: relative;
+    min-width: 150px;
+    min-height: 60px;
+}
