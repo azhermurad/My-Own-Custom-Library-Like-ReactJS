@@ -34,7 +34,7 @@ import { createElement } from "../../react/index";
     },
   ];
 
-  // Here is the Frist list 
+  // Here is the Frist list & frist Header
 
   const list1 = [];
   menuItems.forEach((item) => {
@@ -45,7 +45,7 @@ import { createElement } from "../../react/index";
     list1.push(li);
   });
 
-  // Here is the list of Icons 
+  // Here is the list of Icons & second Header
 
   const list2 = [];
   menuItems.forEach((item) => {
@@ -63,6 +63,5 @@ import { createElement } from "../../react/index";
   const NavDiv = createElement("div", { class: 'NavDiv' }, img, menus, menus2)
   return createElement("header", { class: 'header' }, NavDiv);
 };
-
 
 export default Header;

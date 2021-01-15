@@ -2,7 +2,7 @@ import { createElement } from "../../../react/index"
 import Footer from "../../Homesections/footer"
 import header from "../../main-page/header"
 
-
+                                 // this is the second section of tv shows
 
 let HomeSectionTwo = () => {
 
@@ -32,6 +32,9 @@ let HomeSectionTwo = () => {
     return sectiontwo;
 }
 
+
+                    // this is the third section of tv shows
+
 let HomeSectionThree = () => {
 
 
@@ -47,29 +50,29 @@ let HomeSectionThree = () => {
 
     let img6 = createElement("img", { src: "https://i.pinimg.com/236x/0d/0c/4d/0d0c4d8517f226a2ce0a866882ba6fe5.jpg" })
 
-    let img7 = createElement("img", { src: "https://i.pinimg.com/236x/30/7f/60/307f60acfa1b2eaf696e88bbb89b459e.jpg" });
+    let img7 = createElement("img", { src: "https://i.pinimg.com/236x/40/5d/c2/405dc2817508e366b0e9fe6bbb1354c8.jpg"})
 
-    let img8 = createElement("img", { src: "https://i.pinimg.com/236x/55/73/8a/55738afac01971b4c3f34d5a7c14b334.jpg" });
+    let img8 = createElement("img", { src: "https://i.pinimg.com/236x/3e/49/41/3e49418756805f32131d3ca397c1b0fd.jpg"})
 
-    let img9 = createElement("img", { src: "https://i.pinimg.com/236x/1c/39/4c/1c394c61b9a992029c0af72b3ac5b753.jpg" })
+    let img9 = createElement("img", { src: "https://i.pinimg.com/236x/e1/f2/35/e1f2356e577d7b8ba8750ae80e8655c8.jpg"})
 
-    let img10 = createElement("img", { src: "https://i.pinimg.com/236x/56/db/f8/56dbf823f641f898a0f0e1320d6b585e.jpg" })
+    let img10 = createElement("img", { src: "https://i.pinimg.com/236x/d8/98/67/d898677e3f387b9a263fcdb2b6f9476c.jpg"})
 
-    let img11 = createElement("img", { src: "https://i.pinimg.com/236x/0d/0c/4d/0d0c4d8517f226a2ce0a866882ba6fe5.jpg" })
+    let img11 = createElement("img", { src: "https://i.pinimg.com/236x/b4/08/7d/b4087dd20777b05b98f120bb0ae4e516.jpg"})
 
-    let img12 = createElement("img", { src: "https://i.pinimg.com/236x/0d/0c/4d/0d0c4d8517f226a2ce0a866882ba6fe5.jpg" })
+    let img12 = createElement("img", { src: "https://i.pinimg.com/236x/a1/82/6e/a1826ebaabb7d02ed2c3db0813581c1b.jpg"})
 
-    let img13 = createElement("img", { src: "https://i.pinimg.com/236x/30/7f/60/307f60acfa1b2eaf696e88bbb89b459e.jpg" });
+    let img13 = createElement("img", { src: "https://i.pinimg.com/236x/ab/8f/30/ab8f307a156443ac9672fd9a7b115c31.jpg"})
 
-    let img14 = createElement("img", { src: "https://i.pinimg.com/236x/a2/d0/9c/a2d09cde274f2a766096b7c8e6af7c3d.jpg" });
+    let img14 = createElement("img", { src: "https://i.pinimg.com/236x/23/5c/40/235c40354169b745147103010258dcd3.jpg"})
 
-    let img15 = createElement("img", { src: "https://i.pinimg.com/236x/1c/39/4c/1c394c61b9a992029c0af72b3ac5b753.jpg" })
+    let img15 = createElement("img", { src: "https://i.pinimg.com/236x/61/89/0d/61890dd88de87629efef19870695242d.jpg"})
 
-    let img16 = createElement("img", { src: "https://i.pinimg.com/236x/f3/bd/5c/f3bd5c54882102e663d50ca4b66a209d.jpg" })
+    let img16 = createElement("img", { src: "https://i.pinimg.com/236x/e5/b6/cb/e5b6cb71333c832eda080d219270f467.jpg"})
 
-    let img17 = createElement("img", { src: "https://i.pinimg.com/236x/51/52/94/5152944272edbeec69a2607b2ab94a80.jpg" })
+    let img17 = createElement("img", { src: "https://i.pinimg.com/236x/e5/37/61/e53761f467ac32303b732c758f360d2d.jpg"})
 
-    let img18 = createElement("img", { src: "https://i.pinimg.com/236x/0d/0c/4d/0d0c4d8517f226a2ce0a866882ba6fe5.jpg" })
+    let img18 = createElement("img", { src: "https://i.pinimg.com/236x/7f/45/e1/7f45e1a9efee4cf5361878078f02e5db.jpg"})
 
 
     const sectionThree = createElement("section", { style: "background-color: #1d1d1d;padding:50px 0px", class: "movies-section" },
@@ -104,6 +107,10 @@ let HomeSectionThree = () => {
 }
 
  const TvShows = () => {
+
+
+                             // this is the frist section of tv shows
+
 
 
     const para = createElement("p", null, "Sex. It's on teenage minds. It's messing with their heads. And this kid is the least likely sexpert in the schoolyard.")
