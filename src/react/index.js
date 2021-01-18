@@ -32,8 +32,10 @@ const handleProps = (element, props) => {
 }
 
 export const reactDOM = {
+ 
     render: (element, rootElement) => {
         console.log(rootElement, element)
         rootElement.appendChild(element);
+      
     }
 }

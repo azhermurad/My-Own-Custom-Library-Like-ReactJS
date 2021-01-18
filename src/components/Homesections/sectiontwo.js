@@ -1,5 +1,5 @@
 import { createElement } from "../../react/index";
-import { MultielementCreater  } from "../../react/multieElement"
+import {MultielementCreater}   from "../../react/multieElement"
 import  tv from "../../../src/Assests/tv.png";
 
 let SectionTwo=()=>{
