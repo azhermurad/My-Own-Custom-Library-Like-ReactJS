@@ -12,7 +12,7 @@ const App = () => {
     // mainDiv.appendChild(Route())
   
 
-  //  createElement('div', null, mainDiv)
+  //  createElement('div', null, mainDiv)np
     return mainDiv;
 }
 reactDOM.render(App(), document.getElementById('root'));
