@@ -1,6 +1,28 @@
 
 import { createElement } from "../../react/index";
 import Footer from "../main-page/footer"
+// import lo from "../../Assests/.png"
+
+
+
+let Model=createElement("div",{class:"model ",onclick:()=>{closeModel()}},createElement("div",{class:"model-content animate__animated animate__zoomIn"},
+createElement("iframe",{src:"https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"})))
+
+
+
+let model = ()=>{
+
+    let m=document.querySelector(".model")
+   m.style.display = "block";
+  
+
+   
+    
+}
+let closeModel=()=>{
+    let m=document.querySelector(".model")
+    m.style.display = "none";
+}
 
 
 let HomeSectionTwo = () => {
@@ -19,12 +41,12 @@ let HomeSectionTwo = () => {
 
     let sectiontwo = createElement("section", { style: "background-color: #1d1d1d;", class: "movies-section" },
         createElement("div", { class: "images-flex" },
-            createElement("div", null, im),
-            createElement("div", null, im2),
-            createElement("div", null, im3),
-            createElement("div", null, im4),
-            createElement("div", null, im5),
-            createElement("div", null, im6)
+            createElement("div", {onclick:()=>{model()}}, im),
+            createElement("div", {onclick:()=>{model()}}, im2),
+            createElement("div", {onclick:()=>{model()}}, im3),
+            createElement("div",{onclick:()=>{model()}}, im4),
+            createElement("div", {onclick:()=>{model()}}, im5),
+            createElement("div",{onclick:()=>{model()}}, im6)
 
         ))
 
@@ -129,7 +151,9 @@ let HomeSectionThree = () => {
 
     fragement.appendChild(HomeSectionTwo())
     fragement.appendChild(HomeSectionThree())
+    
     fragement.appendChild(Footer())
+    fragement.appendChild(Model)
 
 
     return fragement;
