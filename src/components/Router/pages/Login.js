@@ -9,6 +9,7 @@ import FormSubmit from "../../Homesections/Helper/formvalidation"
 
 
 
+
 let Login = ()=> {
   let loginContainer=createElement("div", {class: "container-wrapper"},createElement("div", {class: "img-container",style:`background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(${logo});min-height:100vh`},
                       createElement("div", {class: "container"}, createElement("img", {src:brand, class: "brand"}),createElement("div",{class: "wrapper-form"},
@@ -21,16 +22,46 @@ let Login = ()=> {
                       createElement("div",{class: "signNow"}, createElement("span",null,"New to Netflix?"), createElement("a",{class:"white-color",href: "/"},"Sign up Now") ),
                       createElement("p", {class: "last-p"}, "This page is protected by Google reCAPTCHA to <br>ensure you're not a bot."),
                       )),footer()
+
                       
-                      )
+//                       )
                      
-  )                               
+//   )                               
+
+
+// return loginContainer;
+// }
+
+// ***********practice purposes 
+
+let Login = ()=> {
+        let loginContainer=createElement("div", {class: "container-wrapper"}, createElement("div", {class: "img-container",style:`background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(${logo});min-height:100vh`},
+        createElement("img", {src:brand, class: "brand"}),
+        createElement("div",{class: "login-outer"},createElement("div", {class: "login-inner"},createElement("h1", {class: "main-heading"},"Sign In"),
+        createElement("form",null,createElement("div",{class: "input-wrape"},createElement("input",{type: "text",placeholder: "Email or phone Number"})),
+        createElement("div",{class: "input-wrape"},createElement("input",{type: "password",placeholder: "password"})),
+        createElement("div",{class: "input-wrape"},createElement("button",{class: "btn-form",onclick:()=>{alert("user is sign in")}},"Sign In")),
+        createElement("div",{class: "remember-help"},createElement("div",{class: "remember"},createElement("span",null,
+        createElement("input",{type: "checkbox"})),createElement("span",null,"Remember Me")), createElement("div", {class: "need-help"},"Need Help?")),
+        createElement("div",{class: "login-with-fb"},createElement("span",null,createElement("img",{src:fbPic})),
+        createElement("span",null,"Login With facebook")),createElement("div",{class: "signNow"}, createElement("span",null,"New to Netflix?"), createElement("a",{class:"white-color",href: "/"},"Sign up Now") ),
+        createElement("p", {class: "last-p"}, "This page is protected by Google reCAPTCHA to ensure you're not a bot.")))),
+        footer())
+       
+        
+        
+        )
+  
 
 
 return loginContainer;
 }
 
 
+
+
+
+// practice purposes
 
 
 export default Login;
