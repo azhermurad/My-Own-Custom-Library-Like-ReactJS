@@ -13,3 +13,5 @@ yarn build
 ```
 
 to bundle your application
+
+[Best Netflix trending shows Right Now](https://noligate.com/news/trending/the-best-netflix-trending-shows-right-now/)
