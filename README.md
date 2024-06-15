@@ -1,4 +1,4 @@
-# 🚀 Welcome to your new awesome My Own Custom React Library!
+# 🚀 Welcome to My Own Custom React Library!
 
 
 
