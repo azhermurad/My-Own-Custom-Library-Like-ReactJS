@@ -1,4 +1,6 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Welcome to your new awesome My Own Custom React Library!
+
+
 
 This project has been created using **webpack scaffold**, you can now run
 
